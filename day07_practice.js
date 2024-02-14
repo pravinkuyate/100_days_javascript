@@ -29,3 +29,5 @@ rl.question("Enter your age: ", function(age) {
   rl.close();
 });
 
+//switch case statements
+
