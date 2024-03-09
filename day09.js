@@ -20,4 +20,3 @@ do{
 }while(j<50);
 
 //for in loop
-for 

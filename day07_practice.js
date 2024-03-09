@@ -1,7 +1,7 @@
 //using logical operators find 
 //the person age lies between 10 and 2
 
-/*let age=prompt("enter your age")
+let age=prompt("enter your age")
 
 if(age>10 && age<20){
     console.log("your age is lies between 10 and 20")
@@ -11,8 +11,8 @@ else{
     console.log("age is not lies between1 10 and 20")
 
 }
-*/
-const readline = require('readline');
+
+/*const readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -30,4 +30,4 @@ rl.question("Enter your age: ", function(age) {
 });
 
 //switch case statements
-
+*/

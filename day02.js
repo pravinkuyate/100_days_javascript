@@ -1,7 +1,8 @@
 let person={
 Name:'john',
 age:3,
-student:true
+student:true,
+lenght:25
 };
 console.log(typeof person); // to check type of it
 

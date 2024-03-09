@@ -7,14 +7,15 @@
 // B= Bigint
 // s =String
 //s =Symbol
-// u=undefi
+// u=undefined
+
 let a=null 
 let b=45;
 let c=true;
 let d=BigInt("574")
 let e="pravin"
 let f=Symbol("hey there ")
-let g;
+let g=10;
 
 console.log(typeof(a,b,c,d,e,g))
 
