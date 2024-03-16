@@ -27,9 +27,9 @@ console.log(sum(10,20));
 
 //arrow function with single parameter
 
-let square =x =>x*x;
+let square =x =>x*x*x;
 
-console.log(square(5))
+console.log(square(3))
 
 //
 let multiply =(a,b) =>a*b;
@@ -41,3 +41,16 @@ let he =() =>"hell12";
 
 console.log(he())
 
+//genrator function
+
+function* countGen(){
+let count=0
+while(true){
+    yield count++
+}
+}
+
+let counter= countGen()
+console.log(counter.next().value)
+console.log(counter.next().value)
+console.log(counter.next().value)
